@@ -1,0 +1,21 @@
+networks:
+  backend: {}
+  frontend: {}
+services:
+  catalog:
+    build:
+      context: G:\Github\SWC14\Updated\JewelsOnContainers\ProductCatalogAPI
+      dockerfile: Dockerfile
+    container_name: jewelscatalogapi
+    environment:
+      ConnectionString: Data Source=(localdb)\MSSQLLocalDB;Initial Catalog=CatalogDbNew;Integrated
+        Security=True;Connect Timeout=30;
+      ExternalBaseUrl: https://localhost:7000
+    image: jewels/catalogapi
+    networks:
+      backend: null
+      frontend: null
+    ports:
+    - published: 7000
+      target: 80
+version: '3.4'
