@@ -1,0 +1,263 @@
+{
+  "ContentRoots": [
+    "/src/wwwroot/"
+  ],
+  "Root": {
+    "Children": {
+      "Pics": {
+        "Children": {
+          "Ring1.jpg": {
+            "Children": null,
+            "Asset": {
+              "ContentRootIndex": 0,
+              "SubPath": "Pics/Ring1.jpg"
+            },
+            "Patterns": null
+          },
+          "Ring10.jpg": {
+            "Children": null,
+            "Asset": {
+              "ContentRootIndex": 0,
+              "SubPath": "Pics/Ring10.jpg"
+            },
+            "Patterns": null
+          },
+          "Ring11.jpg": {
+            "Children": null,
+            "Asset": {
+              "ContentRootIndex": 0,
+              "SubPath": "Pics/Ring11.jpg"
+            },
+            "Patterns": null
+          },
+          "Ring12.jpg": {
+            "Children": null,
+            "Asset": {
+              "ContentRootIndex": 0,
+              "SubPath": "Pics/Ring12.jpg"
+            },
+            "Patterns": null
+          },
+          "Ring13.jpg": {
+            "Children": null,
+            "Asset": {
+              "ContentRootIndex": 0,
+              "SubPath": "Pics/Ring13.jpg"
+            },
+            "Patterns": null
+          },
+          "Ring14.jpg": {
+            "Children": null,
+            "Asset": {
+              "ContentRootIndex": 0,
+              "SubPath": "Pics/Ring14.jpg"
+            },
+            "Patterns": null
+          },
+          "Ring15.jpg": {
+            "Children": null,
+            "Asset": {
+              "ContentRootIndex": 0,
+              "SubPath": "Pics/Ring15.jpg"
+            },
+            "Patterns": null
+          },
+          "Ring2.jpg": {
+            "Children": null,
+            "Asset": {
+              "ContentRootIndex": 0,
+              "SubPath": "Pics/Ring2.jpg"
+            },
+            "Patterns": null
+          },
+          "Ring3.jpg": {
+            "Children": null,
+            "Asset": {
+              "ContentRootIndex": 0,
+              "SubPath": "Pics/Ring3.jpg"
+            },
+            "Patterns": null
+          },
+          "Ring4.jpg": {
+            "Children": null,
+            "Asset": {
+              "ContentRootIndex": 0,
+              "SubPath": "Pics/Ring4.jpg"
+            },
+            "Patterns": null
+          },
+          "Ring5.jpg": {
+            "Children": null,
+            "Asset": {
+              "ContentRootIndex": 0,
+              "SubPath": "Pics/Ring5.jpg"
+            },
+            "Patterns": null
+          },
+          "Ring6.jpg": {
+            "Children": null,
+            "Asset": {
+              "ContentRootIndex": 0,
+              "SubPath": "Pics/Ring6.jpg"
+            },
+            "Patterns": null
+          },
+          "Ring7.jpg": {
+            "Children": null,
+            "Asset": {
+              "ContentRootIndex": 0,
+              "SubPath": "Pics/Ring7.jpg"
+            },
+            "Patterns": null
+          },
+          "Ring8.jpg": {
+            "Children": null,
+            "Asset": {
+              "ContentRootIndex": 0,
+              "SubPath": "Pics/Ring8.jpg"
+            },
+            "Patterns": null
+          },
+          "Ring9.jpg": {
+            "Children": null,
+            "Asset": {
+              "ContentRootIndex": 0,
+              "SubPath": "Pics/Ring9.jpg"
+            },
+            "Patterns": null
+          },
+          "shoes-1.png": {
+            "Children": null,
+            "Asset": {
+              "ContentRootIndex": 0,
+              "SubPath": "Pics/shoes-1.png"
+            },
+            "Patterns": null
+          },
+          "shoes-10.png": {
+            "Children": null,
+            "Asset": {
+              "ContentRootIndex": 0,
+              "SubPath": "Pics/shoes-10.png"
+            },
+            "Patterns": null
+          },
+          "shoes-11.png": {
+            "Children": null,
+            "Asset": {
+              "ContentRootIndex": 0,
+              "SubPath": "Pics/shoes-11.png"
+            },
+            "Patterns": null
+          },
+          "shoes-12.png": {
+            "Children": null,
+            "Asset": {
+              "ContentRootIndex": 0,
+              "SubPath": "Pics/shoes-12.png"
+            },
+            "Patterns": null
+          },
+          "shoes-13.png": {
+            "Children": null,
+            "Asset": {
+              "ContentRootIndex": 0,
+              "SubPath": "Pics/shoes-13.png"
+            },
+            "Patterns": null
+          },
+          "shoes-14.png": {
+            "Children": null,
+            "Asset": {
+              "ContentRootIndex": 0,
+              "SubPath": "Pics/shoes-14.png"
+            },
+            "Patterns": null
+          },
+          "shoes-15.png": {
+            "Children": null,
+            "Asset": {
+              "ContentRootIndex": 0,
+              "SubPath": "Pics/shoes-15.png"
+            },
+            "Patterns": null
+          },
+          "shoes-2.png": {
+            "Children": null,
+            "Asset": {
+              "ContentRootIndex": 0,
+              "SubPath": "Pics/shoes-2.png"
+            },
+            "Patterns": null
+          },
+          "shoes-3.png": {
+            "Children": null,
+            "Asset": {
+              "ContentRootIndex": 0,
+              "SubPath": "Pics/shoes-3.png"
+            },
+            "Patterns": null
+          },
+          "shoes-4.png": {
+            "Children": null,
+            "Asset": {
+              "ContentRootIndex": 0,
+              "SubPath": "Pics/shoes-4.png"
+            },
+            "Patterns": null
+          },
+          "shoes-5.png": {
+            "Children": null,
+            "Asset": {
+              "ContentRootIndex": 0,
+              "SubPath": "Pics/shoes-5.png"
+            },
+            "Patterns": null
+          },
+          "shoes-6.png": {
+            "Children": null,
+            "Asset": {
+              "ContentRootIndex": 0,
+              "SubPath": "Pics/shoes-6.png"
+            },
+            "Patterns": null
+          },
+          "shoes-7.png": {
+            "Children": null,
+            "Asset": {
+              "ContentRootIndex": 0,
+              "SubPath": "Pics/shoes-7.png"
+            },
+            "Patterns": null
+          },
+          "shoes-8.png": {
+            "Children": null,
+            "Asset": {
+              "ContentRootIndex": 0,
+              "SubPath": "Pics/shoes-8.png"
+            },
+            "Patterns": null
+          },
+          "shoes-9.png": {
+            "Children": null,
+            "Asset": {
+              "ContentRootIndex": 0,
+              "SubPath": "Pics/shoes-9.png"
+            },
+            "Patterns": null
+          }
+        },
+        "Asset": null,
+        "Patterns": null
+      }
+    },
+    "Asset": null,
+    "Patterns": [
+      {
+        "ContentRootIndex": 0,
+        "Pattern": "**",
+        "Depth": 0
+      }
+    ]
+  }
+}
