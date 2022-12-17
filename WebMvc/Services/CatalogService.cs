@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc.Rendering;
 using Newtonsoft.Json;
+using Newtonsoft.Json.Linq;
 using WebMvc.Infrastructure;
 using WebMvc.Models;
 
@@ -14,21 +15,61 @@ namespace WebMvc.Services
             _httpClient = client;
             _baseUrl = $"{config["CatalogUrl"]}/api/catalog";
         }
-        public Task<IEnumerable<SelectListItem>> GetBrandsAsync()
+        public async Task<IEnumerable<SelectListItem>> GetBrandsAsync()
         {
-            throw new NotImplementedException();
+            var brandUri = APIPaths.Catalog.GetAllBrands(_baseUrl);
+            var dataString = await _httpClient.GetStringAsync(brandUri);
+            var items = new List<SelectListItem>()
+            {
+                new SelectListItem
+                {
+                    Value = null,
+                    Text = "All",
+                    Selected = true,
+                }
+            };
+            var brands = JArray.Parse(dataString);
+            foreach (var item in brands)
+            {
+                items.Add(new SelectListItem
+                {
+                    Value = item.Value<string>("id"),
+                    Text = item.Value<string>("brand")
+                });
+            }
+            return items;
         }
 
-        public async Task<Catalog> GetCatalogItemsAsync(int page, int size)
+        public async Task<Catalog> GetCatalogItemsAsync(int page, int size, int? brand, int? type)
         {
-            var catalogItemsUri = APIPaths.Catalog.GetAllCatalogItems(_baseUrl, page, size);
+            var catalogItemsUri = APIPaths.Catalog.GetAllCatalogItems(_baseUrl, page, size, brand, type);
             var dataString = await _httpClient.GetStringAsync(catalogItemsUri);
             return JsonConvert.DeserializeObject<Catalog>(dataString);
         }
 
-        public Task<IEnumerable<SelectListItem>> GetTypesAsync()
+        public async Task<IEnumerable<SelectListItem>> GetTypesAsync()
         {
-            throw new NotImplementedException();
+            var typesUri = APIPaths.Catalog.GetAllTypes(_baseUrl);
+            var dataString = await _httpClient.GetStringAsync(typesUri);
+            var items = new List<SelectListItem>()
+            {
+                new SelectListItem
+                {
+                    Value = null,
+                    Text = "All",
+                    Selected = true,
+                }
+            };
+            var types = JArray.Parse(dataString);
+            foreach (var item in types)
+            {
+                items.Add(new SelectListItem
+                {
+                    Value = item.Value<string>("id"),
+                    Text = item.Value<string>("type")
+                });
+            }
+            return items;
         }
     }
 }

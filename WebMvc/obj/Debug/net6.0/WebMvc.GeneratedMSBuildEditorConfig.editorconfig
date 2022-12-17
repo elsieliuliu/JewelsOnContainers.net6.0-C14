@@ -15,6 +15,18 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = G:\Github\SWC14\Updated\JewelsOnContainers\WebMvc
 build_property._RazorSourceGeneratorDebug = 
 
+[G:/Github/SWC14/Updated/JewelsOnContainers/WebMvc/Pages/Catalog/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2F0YWxvZ1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[G:/Github/SWC14/Updated/JewelsOnContainers/WebMvc/Pages/Catalog/_pagination.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2F0YWxvZ1xfcGFnaW5hdGlvbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[G:/Github/SWC14/Updated/JewelsOnContainers/WebMvc/Pages/Catalog/_product.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2F0YWxvZ1xfcHJvZHVjdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [G:/Github/SWC14/Updated/JewelsOnContainers/WebMvc/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 

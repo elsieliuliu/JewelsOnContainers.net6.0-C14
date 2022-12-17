@@ -4,17 +4,37 @@
     {
         public static class Catalog
         {
-            public static string GetAllTypes(string baseUrl)
+            public static string GetAllTypes(string baseUri)
             {
-                return $"{baseUrl}/catalogtypes";
+                return $"{baseUri}/catalogtypes";
             }
-            public static string GetAllBrands(string baseUrl)
+            public static string GetAllBrands(string baseUri)
             {
-                return $"{baseUrl}/catalogbrands";
+                return $"{baseUri}/catalogbrands";
             }
-            public static string GetAllCatalogItems(string baseUrl, int page, int take)
+            public static string GetAllCatalogItems(string baseUri, int page, int take,
+                int? brand, int? type)
             {
-                return $"{baseUrl}/items?pageIndex={page}&pageSize={take}";
+                var preUri = string.Empty;
+                var filterQs = string.Empty;
+                if (brand.HasValue)
+                {
+                    filterQs = $"catalogBrandId={brand.Value}";
+                }
+                if (type.HasValue)
+                {
+                    filterQs = (filterQs == string.Empty) ? $"catalogTypeId={type.Value}" :
+                         $"&catalogTypeId={type.Value}";
+                }
+                if (string.IsNullOrEmpty(filterQs))
+                {
+                    preUri = $"{baseUri}/items?pageIndex={page}&pageSize={take}";
+                }
+                else
+                {
+                    preUri = $"{baseUri}/items/filter?pageIndex={page}&pageSize={take}&{filterQs}";
+                }
+                return preUri;
             }
 
         }

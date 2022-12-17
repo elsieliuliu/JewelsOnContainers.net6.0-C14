@@ -57,6 +57,43 @@ namespace ProductCatalogAPI.Controllers
             return Ok(model);
         }
 
+        [HttpGet("[action]/filter")]
+        public async Task<IActionResult> Items(
+            [FromQuery] int? catalogTypeId,
+            [FromQuery] int? catalogBrandId,
+            [FromQuery] int pageIndex = 0, 
+            [FromQuery] int pageSize = 6)
+        {
+            var query = (IQueryable<CatalogItem>)_context.Catalog;
+            if (catalogTypeId.HasValue)
+            {
+                query = query.Where(c => c.CatalogTypeId == catalogTypeId.Value);
+            }
+            if (catalogBrandId.HasValue)
+            {
+               query = query.Where(c => c.CatalogBrandId == catalogBrandId.Value);
+            }
+
+            var itemsCount = query.LongCountAsync();
+            var items = await query
+                            .OrderBy(c => c.Name)
+                            .Skip(pageIndex * pageSize)
+                            .Take(pageSize)
+                            .ToListAsync();
+
+            items = ChangePictureUrl(items);
+
+            var model = new PaginatedItemsViewModel
+            {
+                PageIndex = pageIndex,
+                PageSize = items.Count,
+                Data = items,
+                Count = itemsCount.Result
+            };
+
+            return Ok(model);
+        }
+
         private List<CatalogItem> ChangePictureUrl(List<CatalogItem> items)
         {
             items.ForEach(item => item.PictureUrl = item.PictureUrl
