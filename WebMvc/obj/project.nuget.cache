@@ -1,11 +1,20 @@
 {
   "version": 2,
-  "dgSpecHash": "7h5BTXkJo+/T2hpiEm4wCcEh2UA4rJD1Jds5hwiU95Htumyww+jbj5/jJBtcD98gSlhIVqccujJjQLxzygGIFQ==",
+  "dgSpecHash": "tG6eTej0tJXOhICbYLlzSTfdb7AiqwxHlQYVa1K7Sv5yIqq21LmOHJOrXSMIXIcsgbEHwX57KIjOZ335MPzAPQ==",
   "success": true,
   "projectFilePath": "G:\\Github\\SWC14\\Updated\\JewelsOnContainers\\WebMvc\\WebMvc.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\KalAcademy\\.nuget\\packages\\microsoft.aspnetcore.authentication.openidconnect\\6.0.12\\microsoft.aspnetcore.authentication.openidconnect.6.0.12.nupkg.sha512",
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
+    "C:\\Users\\KalAcademy\\.nuget\\packages\\microsoft.identitymodel.jsonwebtokens\\6.10.0\\microsoft.identitymodel.jsonwebtokens.6.10.0.nupkg.sha512",
+    "C:\\Users\\KalAcademy\\.nuget\\packages\\microsoft.identitymodel.logging\\6.10.0\\microsoft.identitymodel.logging.6.10.0.nupkg.sha512",
+    "C:\\Users\\KalAcademy\\.nuget\\packages\\microsoft.identitymodel.protocols\\6.10.0\\microsoft.identitymodel.protocols.6.10.0.nupkg.sha512",
+    "C:\\Users\\KalAcademy\\.nuget\\packages\\microsoft.identitymodel.protocols.openidconnect\\6.10.0\\microsoft.identitymodel.protocols.openidconnect.6.10.0.nupkg.sha512",
+    "C:\\Users\\KalAcademy\\.nuget\\packages\\microsoft.identitymodel.tokens\\6.10.0\\microsoft.identitymodel.tokens.6.10.0.nupkg.sha512",
     "C:\\Users\\KalAcademy\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.14.0\\microsoft.visualstudio.azure.containers.tools.targets.1.14.0.nupkg.sha512",
-    "C:\\Users\\KalAcademy\\.nuget\\packages\\newtonsoft.json\\13.0.2\\newtonsoft.json.13.0.2.nupkg.sha512"
+    "C:\\Users\\KalAcademy\\.nuget\\packages\\newtonsoft.json\\13.0.2\\newtonsoft.json.13.0.2.nupkg.sha512",
+    "C:\\Users\\KalAcademy\\.nuget\\packages\\system.identitymodel.tokens.jwt\\6.10.0\\system.identitymodel.tokens.jwt.6.10.0.nupkg.sha512",
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.security.cryptography.cng\\4.5.0\\system.security.cryptography.cng.4.5.0.nupkg.sha512"
   ],
   "logs": []
 }

@@ -7,14 +7,15 @@ EXPOSE 443
 
 FROM mcr.microsoft.com/dotnet/sdk:6.0 AS build
 WORKDIR /src
-COPY ["WebMvc/WebMvc.csproj", "WebMvc/"]
-RUN dotnet restore "WebMvc/WebMvc.csproj"
 COPY . .
-WORKDIR "/src/WebMvc"
+RUN dotnet restore "WebMvc.csproj"
+
 RUN dotnet build "WebMvc.csproj" -c Release -o /app/build
 
 FROM build AS publish
 RUN dotnet publish "WebMvc.csproj" -c Release -o /app/publish
+
+RUN sed -i 's/DEFAULT@SECLEVEL=2/DEFAULT@SECLEVEL=1/g' /etc/ssl/openssl.cnf
 
 FROM base AS final
 WORKDIR /app

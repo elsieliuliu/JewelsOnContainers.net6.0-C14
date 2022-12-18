@@ -12,7 +12,7 @@ services:
       dockerfile: Dockerfile
     environment:
       ConnectionString: "Data Source=mssqlserver;Initial Catalog=CatalogDb;User Id=sa;Password=ProductApi123(!);Connect Timeout=30;TrustServerCertificate=false;Encrypt=false;"
-      ExternalBaseUrl: https://localhost:7000
+      ExternalBaseUrl: http://localhost:7000
     ports:
       - "7000:80"
     container_name: jewelscatalogapi
@@ -21,6 +21,23 @@ services:
       - backend
     depends_on:
       - mssqlserver
+
+
+  webmvc:
+    image: jewels/webmvc
+    build:
+      context: .\WebMvc
+      dockerfile: Dockerfile
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      CatalogUrl: http://catalog
+    ports:
+      - "7500:80"
+    container_name: webshop
+    networks:
+      - frontend
+    depends_on:
+      - catalog
 
   mssqlserver:
     image: "mcr.microsoft.com/mssql/server:latest"
@@ -33,3 +50,4 @@ services:
     container_name: jewelssqlserver
     networks:
       - backend
+

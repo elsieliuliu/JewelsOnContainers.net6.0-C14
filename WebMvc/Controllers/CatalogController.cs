@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using WebMvc.Services;
 using WebMvc.ViewModels;
 
@@ -34,5 +35,12 @@ namespace WebMvc.Controllers
 
             return View(vm);
         }
+
+        [Authorize]
+        public IActionResult About()
+        {
+            return View();
+        }
+
     }
 }

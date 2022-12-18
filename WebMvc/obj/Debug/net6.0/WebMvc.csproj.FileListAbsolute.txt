@@ -24,3 +24,12 @@ G:\Github\SWC14\Updated\JewelsOnContainers\WebMvc\obj\Debug\net6.0\refint\WebMvc
 G:\Github\SWC14\Updated\JewelsOnContainers\WebMvc\obj\Debug\net6.0\WebMvc.pdb
 G:\Github\SWC14\Updated\JewelsOnContainers\WebMvc\obj\Debug\net6.0\WebMvc.genruntimeconfig.cache
 G:\Github\SWC14\Updated\JewelsOnContainers\WebMvc\obj\Debug\net6.0\ref\WebMvc.dll
+G:\Github\SWC14\Updated\JewelsOnContainers\WebMvc\bin\Debug\net6.0\Newtonsoft.Json.dll
+G:\Github\SWC14\Updated\JewelsOnContainers\WebMvc\obj\Debug\net6.0\WebMvc.csproj.CopyComplete
+G:\Github\SWC14\Updated\JewelsOnContainers\WebMvc\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.OpenIdConnect.dll
+G:\Github\SWC14\Updated\JewelsOnContainers\WebMvc\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+G:\Github\SWC14\Updated\JewelsOnContainers\WebMvc\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+G:\Github\SWC14\Updated\JewelsOnContainers\WebMvc\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+G:\Github\SWC14\Updated\JewelsOnContainers\WebMvc\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+G:\Github\SWC14\Updated\JewelsOnContainers\WebMvc\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+G:\Github\SWC14\Updated\JewelsOnContainers\WebMvc\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll

@@ -28,3 +28,10 @@ G:\Github\SWC14\Updated\JewelsOnContainers\bin\Debug\ProductCatalogAPI.pdb
 G:\Github\SWC14\Updated\JewelsOnContainers\obj\Debug\docker-compose.dcproj.AssemblyReference.cache
 G:\Github\SWC14\Updated\JewelsOnContainers\obj\Debug\docker-compose.dcproj.CoreCompileInputs.cache
 G:\Github\SWC14\Updated\JewelsOnContainers\obj\Debug\docker-compose.dcproj.CopyComplete
+G:\Github\SWC14\Updated\JewelsOnContainers\bin\Debug\WebMvc.deps.json
+G:\Github\SWC14\Updated\JewelsOnContainers\bin\Debug\WebMvc.runtimeconfig.json
+G:\Github\SWC14\Updated\JewelsOnContainers\bin\Debug\WebMvc.staticwebassets.runtime.json
+G:\Github\SWC14\Updated\JewelsOnContainers\bin\Debug\WebMvc.exe
+G:\Github\SWC14\Updated\JewelsOnContainers\bin\Debug\WebMvc.dll
+G:\Github\SWC14\Updated\JewelsOnContainers\bin\Debug\Newtonsoft.Json.dll
+G:\Github\SWC14\Updated\JewelsOnContainers\bin\Debug\WebMvc.pdb
