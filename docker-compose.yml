@@ -29,7 +29,7 @@ services:
       dockerfile: Dockerfile
     environment:
       ConnectionString: "Data Source=tokensqlserver;Initial Catalog=TokenServiceDb;User Id=sa;Password=ProductApi123(!);Connect Timeout=30;TrustServerCertificate=false;Encrypt=false;"
-      MvcClient: http://catalog
+      MvcClient: http://localhost:7500
     ports:
       - "7800:80"
     container_name: jewelstokenapi
