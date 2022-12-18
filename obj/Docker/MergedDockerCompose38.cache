@@ -1,0 +1,86 @@
+networks:
+  backend: {}
+  frontend: {}
+services:
+  catalog:
+    build:
+      context: G:\Github\SWC14\Updated\JewelsOnContainers\ProductCatalogAPI
+      dockerfile: Dockerfile
+    container_name: jewelscatalogapi
+    depends_on:
+      mssqlserver:
+        condition: service_started
+    environment:
+      ConnectionString: Data Source=mssqlserver;Initial Catalog=CatalogDb;User Id=sa;Password=ProductApi123(!);Connect
+        Timeout=30;TrustServerCertificate=false;Encrypt=false;
+      ExternalBaseUrl: http://localhost:7000
+    image: jewels/catalogapi
+    networks:
+      backend: null
+      frontend: null
+    ports:
+    - published: 7000
+      target: 80
+  mssqlserver:
+    container_name: jewelssqlserver
+    environment:
+      ACCEPT_EULA: "Y"
+      MSSQL_SA_PASSWORD: ProductApi123(!)
+      SA_PASSWORD: ProductApi123(!)
+    image: mcr.microsoft.com/mssql/server:latest
+    networks:
+      backend: null
+    ports:
+    - published: 1449
+      target: 1433
+  tokenserver:
+    build:
+      context: G:\Github\SWC14\Updated\JewelsOnContainers\TokenServiceAPI
+      dockerfile: Dockerfile
+    container_name: jewelstokenapi
+    depends_on:
+      tokensqlserver:
+        condition: service_started
+    environment:
+      ConnectionString: Data Source=tokensqlserver;Initial Catalog=TokenServiceDb;User
+        Id=sa;Password=ProductApi123(!);Connect Timeout=30;TrustServerCertificate=false;Encrypt=false;
+      MvcClient: http://catalog
+    image: jewels/tokenapi
+    networks:
+      backend: null
+      frontend: null
+    ports:
+    - published: 7800
+      target: 80
+  tokensqlserver:
+    container_name: jewelstokensqlserver
+    environment:
+      ACCEPT_EULA: "Y"
+      MSSQL_SA_PASSWORD: ProductApi123(!)
+      SA_PASSWORD: ProductApi123(!)
+    image: mcr.microsoft.com/mssql/server:latest
+    networks:
+      backend: null
+    ports:
+    - published: 1448
+      target: 1433
+  webmvc:
+    build:
+      context: G:\Github\SWC14\Updated\JewelsOnContainers\WebMvc
+      dockerfile: Dockerfile
+    container_name: webshop
+    depends_on:
+      catalog:
+        condition: service_started
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      CallBackUrl: http://localhost:7500
+      CatalogUrl: http://catalog
+      IdentityUrl: http://192.168.1.109:7800
+    image: jewels/webmvc
+    networks:
+      frontend: null
+    ports:
+    - published: 7500
+      target: 80
+version: '3.4'

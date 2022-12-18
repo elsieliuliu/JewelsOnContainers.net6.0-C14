@@ -31,9 +31,9 @@ namespace TokenServiceAPI
 		{
 			Dictionary<string, string> urls = new Dictionary<string, string>();
 
-			urls.Add("Mvc", configuration.GetValue<string>("MvcClient"));
-			urls.Add("BasketApi", configuration.GetValue<string>("BasketApiClient"));
-			urls.Add("OrderApi", configuration.GetValue<string>("OrderApiClient"));
+			urls.Add("Mvc", configuration["MvcClient"]);
+			urls.Add("BasketApi", configuration["BasketApiClient"]);
+			urls.Add("OrderApi", configuration["OrderApiClient"]);
 
 			return urls;
 

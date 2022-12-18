@@ -22,6 +22,22 @@ services:
     depends_on:
       - mssqlserver
 
+  tokenserver:
+    image: jewels/tokenapi
+    build:
+      context: .\TokenServiceAPI
+      dockerfile: Dockerfile
+    environment:
+      ConnectionString: "Data Source=tokensqlserver;Initial Catalog=TokenServiceDb;User Id=sa;Password=ProductApi123(!);Connect Timeout=30;TrustServerCertificate=false;Encrypt=false;"
+      MvcClient: http://catalog
+    ports:
+      - "7800:80"
+    container_name: jewelstokenapi
+    networks:
+      - frontend
+      - backend
+    depends_on:
+      - tokensqlserver
 
   webmvc:
     image: jewels/webmvc
@@ -31,6 +47,8 @@ services:
     environment:
       ASPNETCORE_ENVIRONMENT: Development
       CatalogUrl: http://catalog
+      IdentityUrl: http://192.168.1.109:7800
+      CallBackUrl: http://localhost:7500
     ports:
       - "7500:80"
     container_name: webshop
@@ -38,6 +56,7 @@ services:
       - frontend
     depends_on:
       - catalog
+      - tokenserver
 
   mssqlserver:
     image: "mcr.microsoft.com/mssql/server:latest"
@@ -51,3 +70,14 @@ services:
     networks:
       - backend
 
+  tokensqlserver:
+    image: "mcr.microsoft.com/mssql/server:latest"
+    environment:
+      ACCEPT_EULA: Y
+      MSSQL_SA_PASSWORD: ProductApi123(!)
+      SA_PASSWORD: ProductApi123(!)
+    ports:
+      - "1448:1433"
+    container_name: jewelstokensqlserver
+    networks:
+      - backend
