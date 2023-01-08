@@ -39,6 +39,25 @@ services:
     depends_on:
       - tokensqlserver
 
+  cart:
+    image: jewels/cartapi
+    build:
+      context: .\CartApi
+      dockerfile: Dockerfile
+    environment:
+      IdentityUrl: http://192.168.1.109:7800
+      ConnectionString: basket.data
+    ports:
+      - "7010:80"
+    container_name: jewelscartapi
+    networks:
+      - frontend
+      - backend
+    depends_on:
+      - tokenserver
+      - basket.data
+      
+
   webmvc:
     image: jewels/webmvc
     build:
@@ -79,5 +98,13 @@ services:
     ports:
       - "1448:1433"
     container_name: jewelstokensqlserver
+    networks:
+      - backend
+
+  basket.data:
+    image: redis
+    ports:
+      - "7050:6379"
+    container_name: basketdata
     networks:
       - backend
