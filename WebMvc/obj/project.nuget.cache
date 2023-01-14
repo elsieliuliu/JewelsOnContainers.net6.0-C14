@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "tG6eTej0tJXOhICbYLlzSTfdb7AiqwxHlQYVa1K7Sv5yIqq21LmOHJOrXSMIXIcsgbEHwX57KIjOZ335MPzAPQ==",
+  "dgSpecHash": "p1i7bwM+0or05q9vBb7K/+vEAHjapabyNCGY6jTJLIB7DcsdrlZxwSUbVfuK8nkh9RM0ktmHZ4Ak1AwvXIia8Q==",
   "success": true,
   "projectFilePath": "G:\\Github\\SWC14\\Updated\\JewelsOnContainers\\WebMvc\\WebMvc.csproj",
   "expectedPackageFiles": [
@@ -13,6 +13,7 @@
     "C:\\Users\\KalAcademy\\.nuget\\packages\\microsoft.identitymodel.tokens\\6.10.0\\microsoft.identitymodel.tokens.6.10.0.nupkg.sha512",
     "C:\\Users\\KalAcademy\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.14.0\\microsoft.visualstudio.azure.containers.tools.targets.1.14.0.nupkg.sha512",
     "C:\\Users\\KalAcademy\\.nuget\\packages\\newtonsoft.json\\13.0.2\\newtonsoft.json.13.0.2.nupkg.sha512",
+    "C:\\Users\\KalAcademy\\.nuget\\packages\\polly\\7.2.3\\polly.7.2.3.nupkg.sha512",
     "C:\\Users\\KalAcademy\\.nuget\\packages\\system.identitymodel.tokens.jwt\\6.10.0\\system.identitymodel.tokens.jwt.6.10.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.security.cryptography.cng\\4.5.0\\system.security.cryptography.cng.4.5.0.nupkg.sha512"
   ],

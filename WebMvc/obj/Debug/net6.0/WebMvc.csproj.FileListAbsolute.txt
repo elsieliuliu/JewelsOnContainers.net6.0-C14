@@ -33,3 +33,4 @@ G:\Github\SWC14\Updated\JewelsOnContainers\WebMvc\bin\Debug\net6.0\Microsoft.Ide
 G:\Github\SWC14\Updated\JewelsOnContainers\WebMvc\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
 G:\Github\SWC14\Updated\JewelsOnContainers\WebMvc\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
 G:\Github\SWC14\Updated\JewelsOnContainers\WebMvc\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+G:\Github\SWC14\Updated\JewelsOnContainers\WebMvc\bin\Debug\net6.0\Polly.dll
