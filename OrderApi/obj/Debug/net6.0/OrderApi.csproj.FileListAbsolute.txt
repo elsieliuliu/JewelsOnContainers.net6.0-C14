@@ -84,3 +84,4 @@ G:\Github\SWC14\Updated\JewelsOnContainers\OrderApi\obj\Debug\net6.0\refint\Orde
 G:\Github\SWC14\Updated\JewelsOnContainers\OrderApi\obj\Debug\net6.0\OrderApi.pdb
 G:\Github\SWC14\Updated\JewelsOnContainers\OrderApi\obj\Debug\net6.0\OrderApi.genruntimeconfig.cache
 G:\Github\SWC14\Updated\JewelsOnContainers\OrderApi\obj\Debug\net6.0\ref\OrderApi.dll
+G:\Github\SWC14\Updated\JewelsOnContainers\OrderApi\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll

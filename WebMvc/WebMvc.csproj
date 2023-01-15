@@ -56,6 +56,7 @@
     <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.14.0" />
     <PackageReference Include="Newtonsoft.Json" Version="13.0.2" />
     <PackageReference Include="Polly" Version="7.2.3" />
+    <PackageReference Include="Stripe.net" Version="41.4.0" />
   </ItemGroup>
 
 </Project>
