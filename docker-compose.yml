@@ -128,6 +128,7 @@ services:
     image: "mcr.microsoft.com/mssql/server:latest"
     environment:
       ACCEPT_EULA: Y
+      MSSQL_SA_PASSWORD: ProductApi123(!)
       SA_PASSWORD: ProductApi123(!)
     ports:
       - "1450:1433"

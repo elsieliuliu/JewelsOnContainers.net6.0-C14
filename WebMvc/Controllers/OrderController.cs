@@ -46,6 +46,8 @@ namespace WebMvc.Controllers
                 var order = frmOrder;
                 order.UserName = user.Email;
                 order.BuyerId = user.Email;
+                order.OrderDate = DateTime.Now;
+                order.OrderStatus = OrderStatus.Preparing;
 
                 var options = new RequestOptions
                 {

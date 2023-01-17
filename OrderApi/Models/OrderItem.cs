@@ -14,8 +14,7 @@ namespace OrderApi.Models
         public decimal UnitPrice { get; set; }
 
         public int Units { get; set; }
-        public int ProductId { get; private set; }
-        public virtual Order Order { get; set; }
+        public int ProductId { get;  set; }
         public int OrderId { get; set; }
 
         public OrderItem(int productId, string productName, decimal unitPrice, string pictureUrl, int units = 1)
