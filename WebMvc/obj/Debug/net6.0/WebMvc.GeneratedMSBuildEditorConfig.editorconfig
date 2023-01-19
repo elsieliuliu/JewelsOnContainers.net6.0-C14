@@ -5,116 +5,117 @@ build_property.UsingMicrosoftNETSdkWeb = true
 build_property.ProjectTypeGuids = 
 build_property.InvariantGlobalization = 
 build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = WebMvc
 build_property.RootNamespace = WebMvc
-build_property.ProjectDir = G:\Github\SWC14\Updated\JewelsOnContainers\WebMvc\
+build_property.ProjectDir = C:\Kal Project\JewelsOnContainersC14\WebMvc\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = G:\Github\SWC14\Updated\JewelsOnContainers\WebMvc
+build_property.MSBuildProjectDirectory = C:\Kal Project\JewelsOnContainersC14\WebMvc
 build_property._RazorSourceGeneratorDebug = 
 
-[G:/Github/SWC14/Updated/JewelsOnContainers/WebMvc/Pages/Error.cshtml]
+[C:/Kal Project/JewelsOnContainersC14/WebMvc/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[G:/Github/SWC14/Updated/JewelsOnContainers/WebMvc/Pages/Index.cshtml]
+[C:/Kal Project/JewelsOnContainersC14/WebMvc/Pages/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[G:/Github/SWC14/Updated/JewelsOnContainers/WebMvc/Pages/Privacy.cshtml]
+[C:/Kal Project/JewelsOnContainersC14/WebMvc/Pages/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[G:/Github/SWC14/Updated/JewelsOnContainers/WebMvc/Pages/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Kal Project/JewelsOnContainersC14/WebMvc/Pages/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[G:/Github/SWC14/Updated/JewelsOnContainers/WebMvc/Pages/_ViewImports.cshtml]
+[C:/Kal Project/JewelsOnContainersC14/WebMvc/Pages/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[G:/Github/SWC14/Updated/JewelsOnContainers/WebMvc/Pages/_ViewStart.cshtml]
+[C:/Kal Project/JewelsOnContainersC14/WebMvc/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[G:/Github/SWC14/Updated/JewelsOnContainers/WebMvc/Views/Cart/Index.cshtml]
+[C:/Kal Project/JewelsOnContainersC14/WebMvc/Views/Cart/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FydFxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[G:/Github/SWC14/Updated/JewelsOnContainers/WebMvc/Views/Catalog/About.cshtml]
+[C:/Kal Project/JewelsOnContainersC14/WebMvc/Views/Catalog/About.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0YWxvZ1xBYm91dC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[G:/Github/SWC14/Updated/JewelsOnContainers/WebMvc/Views/Catalog/Index.cshtml]
+[C:/Kal Project/JewelsOnContainersC14/WebMvc/Views/Catalog/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0YWxvZ1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[G:/Github/SWC14/Updated/JewelsOnContainers/WebMvc/Views/Catalog/_pagination.cshtml]
+[C:/Kal Project/JewelsOnContainersC14/WebMvc/Views/Catalog/_pagination.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0YWxvZ1xfcGFnaW5hdGlvbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[G:/Github/SWC14/Updated/JewelsOnContainers/WebMvc/Views/Catalog/_product.cshtml]
+[C:/Kal Project/JewelsOnContainersC14/WebMvc/Views/Catalog/_product.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0YWxvZ1xfcHJvZHVjdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[G:/Github/SWC14/Updated/JewelsOnContainers/WebMvc/Views/Order/Complete.cshtml]
+[C:/Kal Project/JewelsOnContainersC14/WebMvc/Views/Order/Complete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJcQ29tcGxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[G:/Github/SWC14/Updated/JewelsOnContainers/WebMvc/Views/Order/Create.cshtml]
+[C:/Kal Project/JewelsOnContainersC14/WebMvc/Views/Order/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[G:/Github/SWC14/Updated/JewelsOnContainers/WebMvc/Views/Order/Detail.cshtml]
+[C:/Kal Project/JewelsOnContainersC14/WebMvc/Views/Order/Detail.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJcRGV0YWlsLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[G:/Github/SWC14/Updated/JewelsOnContainers/WebMvc/Views/Order/Index.cshtml]
+[C:/Kal Project/JewelsOnContainersC14/WebMvc/Views/Order/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[G:/Github/SWC14/Updated/JewelsOnContainers/WebMvc/Views/Order/Orders.cshtml]
+[C:/Kal Project/JewelsOnContainersC14/WebMvc/Views/Order/Orders.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJcT3JkZXJzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[G:/Github/SWC14/Updated/JewelsOnContainers/WebMvc/Views/Order/_OrderItems.cshtml]
+[C:/Kal Project/JewelsOnContainersC14/WebMvc/Views/Order/_OrderItems.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJcX09yZGVySXRlbXMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[G:/Github/SWC14/Updated/JewelsOnContainers/WebMvc/Views/Shared/Components/CartList/Default.cshtml]
+[C:/Kal Project/JewelsOnContainersC14/WebMvc/Views/Shared/Components/CartList/Default.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcQ2FydExpc3RcRGVmYXVsdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[G:/Github/SWC14/Updated/JewelsOnContainers/WebMvc/Views/Shared/Components/Cart/Default.cshtml]
+[C:/Kal Project/JewelsOnContainersC14/WebMvc/Views/Shared/Components/Cart/Default.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcQ2FydFxEZWZhdWx0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[G:/Github/SWC14/Updated/JewelsOnContainers/WebMvc/Views/Shared/_Header.cshtml]
+[C:/Kal Project/JewelsOnContainersC14/WebMvc/Views/Shared/_Header.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9IZWFkZXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[G:/Github/SWC14/Updated/JewelsOnContainers/WebMvc/Views/Shared/_Layout.cshtml]
+[C:/Kal Project/JewelsOnContainersC14/WebMvc/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[G:/Github/SWC14/Updated/JewelsOnContainers/WebMvc/Views/Shared/_LoginPartial.cshtml]
+[C:/Kal Project/JewelsOnContainersC14/WebMvc/Views/Shared/_LoginPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Mb2dpblBhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[G:/Github/SWC14/Updated/JewelsOnContainers/WebMvc/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Kal Project/JewelsOnContainersC14/WebMvc/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[G:/Github/SWC14/Updated/JewelsOnContainers/WebMvc/Views/_ViewImports.cshtml]
+[C:/Kal Project/JewelsOnContainersC14/WebMvc/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[G:/Github/SWC14/Updated/JewelsOnContainers/WebMvc/Views/_ViewStart.cshtml]
+[C:/Kal Project/JewelsOnContainersC14/WebMvc/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[G:/Github/SWC14/Updated/JewelsOnContainers/WebMvc/Pages/Shared/_Layout.cshtml]
+[C:/Kal Project/JewelsOnContainersC14/WebMvc/Pages/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-83gibzf0dz

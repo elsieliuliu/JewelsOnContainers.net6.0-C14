@@ -1,0 +1,769 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Kal Project\\JewelsOnContainersC14\\WebMvc\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\WebMvc.bundle.scp.css",
+      "PackagePath": "staticwebassets\\WebMvc.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Kal Project\\JewelsOnContainersC14\\WebMvc\\wwwroot\\css\\app.component.css",
+      "PackagePath": "staticwebassets\\css\\app.component.css"
+    },
+    {
+      "Id": "C:\\Kal Project\\JewelsOnContainersC14\\WebMvc\\wwwroot\\css\\app.css",
+      "PackagePath": "staticwebassets\\css\\app.css"
+    },
+    {
+      "Id": "C:\\Kal Project\\JewelsOnContainersC14\\WebMvc\\wwwroot\\css\\basket\\basket-status\\basket-status.component.css",
+      "PackagePath": "staticwebassets\\css\\basket\\basket-status\\basket-status.component.css"
+    },
+    {
+      "Id": "C:\\Kal Project\\JewelsOnContainersC14\\WebMvc\\wwwroot\\css\\basket\\basket.component.css",
+      "PackagePath": "staticwebassets\\css\\basket\\basket.component.css"
+    },
+    {
+      "Id": "C:\\Kal Project\\JewelsOnContainersC14\\WebMvc\\wwwroot\\css\\catalog\\catalog.component.css",
+      "PackagePath": "staticwebassets\\css\\catalog\\catalog.component.css"
+    },
+    {
+      "Id": "C:\\Kal Project\\JewelsOnContainersC14\\WebMvc\\wwwroot\\css\\etalage.css",
+      "PackagePath": "staticwebassets\\css\\etalage.css"
+    },
+    {
+      "Id": "C:\\Kal Project\\JewelsOnContainersC14\\WebMvc\\wwwroot\\css\\form.css",
+      "PackagePath": "staticwebassets\\css\\form.css"
+    },
+    {
+      "Id": "C:\\Kal Project\\JewelsOnContainersC14\\WebMvc\\wwwroot\\css\\megamenu.css",
+      "PackagePath": "staticwebassets\\css\\megamenu.css"
+    },
+    {
+      "Id": "C:\\Kal Project\\JewelsOnContainersC14\\WebMvc\\wwwroot\\css\\shared\\components\\header\\header.css",
+      "PackagePath": "staticwebassets\\css\\shared\\components\\header\\header.css"
+    },
+    {
+      "Id": "C:\\Kal Project\\JewelsOnContainersC14\\WebMvc\\wwwroot\\css\\shared\\components\\identity\\identity.css",
+      "PackagePath": "staticwebassets\\css\\shared\\components\\identity\\identity.css"
+    },
+    {
+      "Id": "C:\\Kal Project\\JewelsOnContainersC14\\WebMvc\\wwwroot\\css\\shared\\components\\pager\\pager.css",
+      "PackagePath": "staticwebassets\\css\\shared\\components\\pager\\pager.css"
+    },
+    {
+      "Id": "C:\\Kal Project\\JewelsOnContainersC14\\WebMvc\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Kal Project\\JewelsOnContainersC14\\WebMvc\\wwwroot\\css\\site.min.css",
+      "PackagePath": "staticwebassets\\css\\site.min.css"
+    },
+    {
+      "Id": "C:\\Kal Project\\JewelsOnContainersC14\\WebMvc\\wwwroot\\css\\sitestripe.css",
+      "PackagePath": "staticwebassets\\css\\sitestripe.css"
+    },
+    {
+      "Id": "C:\\Kal Project\\JewelsOnContainersC14\\WebMvc\\wwwroot\\css\\sitestripe.min.css",
+      "PackagePath": "staticwebassets\\css\\sitestripe.min.css"
+    },
+    {
+      "Id": "C:\\Kal Project\\JewelsOnContainersC14\\WebMvc\\wwwroot\\css\\style.css",
+      "PackagePath": "staticwebassets\\css\\style.css"
+    },
+    {
+      "Id": "C:\\Kal Project\\JewelsOnContainersC14\\WebMvc\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Kal Project\\JewelsOnContainersC14\\WebMvc\\wwwroot\\fonts\\Montserrat-Bold.eot",
+      "PackagePath": "staticwebassets\\fonts\\Montserrat-Bold.eot"
+    },
+    {
+      "Id": "C:\\Kal Project\\JewelsOnContainersC14\\WebMvc\\wwwroot\\fonts\\Montserrat-Bold.svg",
+      "PackagePath": "staticwebassets\\fonts\\Montserrat-Bold.svg"
+    },
+    {
+      "Id": "C:\\Kal Project\\JewelsOnContainersC14\\WebMvc\\wwwroot\\fonts\\Montserrat-Bold.ttf",
+      "PackagePath": "staticwebassets\\fonts\\Montserrat-Bold.ttf"
+    },
+    {
+      "Id": "C:\\Kal Project\\JewelsOnContainersC14\\WebMvc\\wwwroot\\fonts\\Montserrat-Bold.woff",
+      "PackagePath": "staticwebassets\\fonts\\Montserrat-Bold.woff"
+    },
+    {
+      "Id": "C:\\Kal Project\\JewelsOnContainersC14\\WebMvc\\wwwroot\\fonts\\Montserrat-Bold.woff2",
+      "PackagePath": "staticwebassets\\fonts\\Montserrat-Bold.woff2"
+    },
+    {
+      "Id": "C:\\Kal Project\\JewelsOnContainersC14\\WebMvc\\wwwroot\\fonts\\Montserrat-Regular.eot",
+      "PackagePath": "staticwebassets\\fonts\\Montserrat-Regular.eot"
+    },
+    {
+      "Id": "C:\\Kal Project\\JewelsOnContainersC14\\WebMvc\\wwwroot\\fonts\\Montserrat-Regular.svg",
+      "PackagePath": "staticwebassets\\fonts\\Montserrat-Regular.svg"
+    },
+    {
+      "Id": "C:\\Kal Project\\JewelsOnContainersC14\\WebMvc\\wwwroot\\fonts\\Montserrat-Regular.ttf",
+      "PackagePath": "staticwebassets\\fonts\\Montserrat-Regular.ttf"
+    },
+    {
+      "Id": "C:\\Kal Project\\JewelsOnContainersC14\\WebMvc\\wwwroot\\fonts\\Montserrat-Regular.woff",
+      "PackagePath": "staticwebassets\\fonts\\Montserrat-Regular.woff"
+    },
+    {
+      "Id": "C:\\Kal Project\\JewelsOnContainersC14\\WebMvc\\wwwroot\\fonts\\Montserrat-Regular.woff2",
+      "PackagePath": "staticwebassets\\fonts\\Montserrat-Regular.woff2"
+    },
+    {
+      "Id": "C:\\Kal Project\\JewelsOnContainersC14\\WebMvc\\wwwroot\\images\\Logo-4.png",
+      "PackagePath": "staticwebassets\\images\\Logo-4.png"
+    },
+    {
+      "Id": "C:\\Kal Project\\JewelsOnContainersC14\\WebMvc\\wwwroot\\images\\arrow-down.png",
+      "PackagePath": "staticwebassets\\images\\arrow-down.png"
+    },
+    {
+      "Id": "C:\\Kal Project\\JewelsOnContainersC14\\WebMvc\\wwwroot\\images\\arrow-right.svg",
+      "PackagePath": "staticwebassets\\images\\arrow-right.svg"
+    },
+    {
+      "Id": "C:\\Kal Project\\JewelsOnContainersC14\\WebMvc\\wwwroot\\images\\arrow.png",
+      "PackagePath": "staticwebassets\\images\\arrow.png"
+    },
+    {
+      "Id": "C:\\Kal Project\\JewelsOnContainersC14\\WebMvc\\wwwroot\\images\\arrow2.gif",
+      "PackagePath": "staticwebassets\\images\\arrow2.gif"
+    },
+    {
+      "Id": "C:\\Kal Project\\JewelsOnContainersC14\\WebMvc\\wwwroot\\images\\arrows.png",
+      "PackagePath": "staticwebassets\\images\\arrows.png"
+    },
+    {
+      "Id": "C:\\Kal Project\\JewelsOnContainersC14\\WebMvc\\wwwroot\\images\\arrows.psd",
+      "PackagePath": "staticwebassets\\images\\arrows.psd"
+    },
+    {
+      "Id": "C:\\Kal Project\\JewelsOnContainersC14\\WebMvc\\wwwroot\\images\\as.png",
+      "PackagePath": "staticwebassets\\images\\as.png"
+    },
+    {
+      "Id": "C:\\Kal Project\\JewelsOnContainersC14\\WebMvc\\wwwroot\\images\\b-arrow.png",
+      "PackagePath": "staticwebassets\\images\\b-arrow.png"
+    },
+    {
+      "Id": "C:\\Kal Project\\JewelsOnContainersC14\\WebMvc\\wwwroot\\images\\b_star.png",
+      "PackagePath": "staticwebassets\\images\\b_star.png"
+    },
+    {
+      "Id": "C:\\Kal Project\\JewelsOnContainersC14\\WebMvc\\wwwroot\\images\\banner-2.jpg",
+      "PackagePath": "staticwebassets\\images\\banner-2.jpg"
+    },
+    {
+      "Id": "C:\\Kal Project\\JewelsOnContainersC14\\WebMvc\\wwwroot\\images\\banner-2.png",
+      "PackagePath": "staticwebassets\\images\\banner-2.png"
+    },
+    {
+      "Id": "C:\\Kal Project\\JewelsOnContainersC14\\WebMvc\\wwwroot\\images\\banner-3.jpg",
+      "PackagePath": "staticwebassets\\images\\banner-3.jpg"
+    },
+    {
+      "Id": "C:\\Kal Project\\JewelsOnContainersC14\\WebMvc\\wwwroot\\images\\banner-3.png",
+      "PackagePath": "staticwebassets\\images\\banner-3.png"
+    },
+    {
+      "Id": "C:\\Kal Project\\JewelsOnContainersC14\\WebMvc\\wwwroot\\images\\banner.jpg",
+      "PackagePath": "staticwebassets\\images\\banner.jpg"
+    },
+    {
+      "Id": "C:\\Kal Project\\JewelsOnContainersC14\\WebMvc\\wwwroot\\images\\banner.png",
+      "PackagePath": "staticwebassets\\images\\banner.png"
+    },
+    {
+      "Id": "C:\\Kal Project\\JewelsOnContainersC14\\WebMvc\\wwwroot\\images\\banner1.jpg",
+      "PackagePath": "staticwebassets\\images\\banner1.jpg"
+    },
+    {
+      "Id": "C:\\Kal Project\\JewelsOnContainersC14\\WebMvc\\wwwroot\\images\\banner1.svg",
+      "PackagePath": "staticwebassets\\images\\banner1.svg"
+    },
+    {
+      "Id": "C:\\Kal Project\\JewelsOnContainersC14\\WebMvc\\wwwroot\\images\\banner2.jpg",
+      "PackagePath": "staticwebassets\\images\\banner2.jpg"
+    },
+    {
+      "Id": "C:\\Kal Project\\JewelsOnContainersC14\\WebMvc\\wwwroot\\images\\banner2.svg",
+      "PackagePath": "staticwebassets\\images\\banner2.svg"
+    },
+    {
+      "Id": "C:\\Kal Project\\JewelsOnContainersC14\\WebMvc\\wwwroot\\images\\banner3.svg",
+      "PackagePath": "staticwebassets\\images\\banner3.svg"
+    },
+    {
+      "Id": "C:\\Kal Project\\JewelsOnContainersC14\\WebMvc\\wwwroot\\images\\banner4.svg",
+      "PackagePath": "staticwebassets\\images\\banner4.svg"
+    },
+    {
+      "Id": "C:\\Kal Project\\JewelsOnContainersC14\\WebMvc\\wwwroot\\images\\border.png",
+      "PackagePath": "staticwebassets\\images\\border.png"
+    },
+    {
+      "Id": "C:\\Kal Project\\JewelsOnContainersC14\\WebMvc\\wwwroot\\images\\brand.png",
+      "PackagePath": "staticwebassets\\images\\brand.png"
+    },
+    {
+      "Id": "C:\\Kal Project\\JewelsOnContainersC14\\WebMvc\\wwwroot\\images\\brand_dark.png",
+      "PackagePath": "staticwebassets\\images\\brand_dark.png"
+    },
+    {
+      "Id": "C:\\Kal Project\\JewelsOnContainersC14\\WebMvc\\wwwroot\\images\\cart.png",
+      "PackagePath": "staticwebassets\\images\\cart.png"
+    },
+    {
+      "Id": "C:\\Kal Project\\JewelsOnContainersC14\\WebMvc\\wwwroot\\images\\creditcards\\amex.png",
+      "PackagePath": "staticwebassets\\images\\creditcards\\amex.png"
+    },
+    {
+      "Id": "C:\\Kal Project\\JewelsOnContainersC14\\WebMvc\\wwwroot\\images\\creditcards\\credit.png",
+      "PackagePath": "staticwebassets\\images\\creditcards\\credit.png"
+    },
+    {
+      "Id": "C:\\Kal Project\\JewelsOnContainersC14\\WebMvc\\wwwroot\\images\\creditcards\\dankort.png",
+      "PackagePath": "staticwebassets\\images\\creditcards\\dankort.png"
+    },
+    {
+      "Id": "C:\\Kal Project\\JewelsOnContainersC14\\WebMvc\\wwwroot\\images\\creditcards\\diners.png",
+      "PackagePath": "staticwebassets\\images\\creditcards\\diners.png"
+    },
+    {
+      "Id": "C:\\Kal Project\\JewelsOnContainersC14\\WebMvc\\wwwroot\\images\\creditcards\\discover.png",
+      "PackagePath": "staticwebassets\\images\\creditcards\\discover.png"
+    },
+    {
+      "Id": "C:\\Kal Project\\JewelsOnContainersC14\\WebMvc\\wwwroot\\images\\creditcards\\forbru.png",
+      "PackagePath": "staticwebassets\\images\\creditcards\\forbru.png"
+    },
+    {
+      "Id": "C:\\Kal Project\\JewelsOnContainersC14\\WebMvc\\wwwroot\\images\\creditcards\\google.png",
+      "PackagePath": "staticwebassets\\images\\creditcards\\google.png"
+    },
+    {
+      "Id": "C:\\Kal Project\\JewelsOnContainersC14\\WebMvc\\wwwroot\\images\\creditcards\\jcb.png",
+      "PackagePath": "staticwebassets\\images\\creditcards\\jcb.png"
+    },
+    {
+      "Id": "C:\\Kal Project\\JewelsOnContainersC14\\WebMvc\\wwwroot\\images\\creditcards\\laser.png",
+      "PackagePath": "staticwebassets\\images\\creditcards\\laser.png"
+    },
+    {
+      "Id": "C:\\Kal Project\\JewelsOnContainersC14\\WebMvc\\wwwroot\\images\\creditcards\\maestro.png",
+      "PackagePath": "staticwebassets\\images\\creditcards\\maestro.png"
+    },
+    {
+      "Id": "C:\\Kal Project\\JewelsOnContainersC14\\WebMvc\\wwwroot\\images\\creditcards\\mastercard.png",
+      "PackagePath": "staticwebassets\\images\\creditcards\\mastercard.png"
+    },
+    {
+      "Id": "C:\\Kal Project\\JewelsOnContainersC14\\WebMvc\\wwwroot\\images\\creditcards\\money.png",
+      "PackagePath": "staticwebassets\\images\\creditcards\\money.png"
+    },
+    {
+      "Id": "C:\\Kal Project\\JewelsOnContainersC14\\WebMvc\\wwwroot\\images\\creditcards\\paypa.png",
+      "PackagePath": "staticwebassets\\images\\creditcards\\paypa.png"
+    },
+    {
+      "Id": "C:\\Kal Project\\JewelsOnContainersC14\\WebMvc\\wwwroot\\images\\creditcards\\shopify.png",
+      "PackagePath": "staticwebassets\\images\\creditcards\\shopify.png"
+    },
+    {
+      "Id": "C:\\Kal Project\\JewelsOnContainersC14\\WebMvc\\wwwroot\\images\\creditcards\\solo.png",
+      "PackagePath": "staticwebassets\\images\\creditcards\\solo.png"
+    },
+    {
+      "Id": "C:\\Kal Project\\JewelsOnContainersC14\\WebMvc\\wwwroot\\images\\creditcards\\visa.png",
+      "PackagePath": "staticwebassets\\images\\creditcards\\visa.png"
+    },
+    {
+      "Id": "C:\\Kal Project\\JewelsOnContainersC14\\WebMvc\\wwwroot\\images\\down_arrow.png",
+      "PackagePath": "staticwebassets\\images\\down_arrow.png"
+    },
+    {
+      "Id": "C:\\Kal Project\\JewelsOnContainersC14\\WebMvc\\wwwroot\\images\\f_icon.png",
+      "PackagePath": "staticwebassets\\images\\f_icon.png"
+    },
+    {
+      "Id": "C:\\Kal Project\\JewelsOnContainersC14\\WebMvc\\wwwroot\\images\\f_icon1.png",
+      "PackagePath": "staticwebassets\\images\\f_icon1.png"
+    },
+    {
+      "Id": "C:\\Kal Project\\JewelsOnContainersC14\\WebMvc\\wwwroot\\images\\f_icon2.png",
+      "PackagePath": "staticwebassets\\images\\f_icon2.png"
+    },
+    {
+      "Id": "C:\\Kal Project\\JewelsOnContainersC14\\WebMvc\\wwwroot\\images\\fb.psd",
+      "PackagePath": "staticwebassets\\images\\fb.psd"
+    },
+    {
+      "Id": "C:\\Kal Project\\JewelsOnContainersC14\\WebMvc\\wwwroot\\images\\g+.psd",
+      "PackagePath": "staticwebassets\\images\\g+.psd"
+    },
+    {
+      "Id": "C:\\Kal Project\\JewelsOnContainersC14\\WebMvc\\wwwroot\\images\\img-sprite.png",
+      "PackagePath": "staticwebassets\\images\\img-sprite.png"
+    },
+    {
+      "Id": "C:\\Kal Project\\JewelsOnContainersC14\\WebMvc\\wwwroot\\images\\img-sprite.psd",
+      "PackagePath": "staticwebassets\\images\\img-sprite.psd"
+    },
+    {
+      "Id": "C:\\Kal Project\\JewelsOnContainersC14\\WebMvc\\wwwroot\\images\\logo-4-old.png",
+      "PackagePath": "staticwebassets\\images\\logo-4-old.png"
+    },
+    {
+      "Id": "C:\\Kal Project\\JewelsOnContainersC14\\WebMvc\\wwwroot\\images\\logo.psd",
+      "PackagePath": "staticwebassets\\images\\logo.psd"
+    },
+    {
+      "Id": "C:\\Kal Project\\JewelsOnContainersC14\\WebMvc\\wwwroot\\images\\logo1.png",
+      "PackagePath": "staticwebassets\\images\\logo1.png"
+    },
+    {
+      "Id": "C:\\Kal Project\\JewelsOnContainersC14\\WebMvc\\wwwroot\\images\\logout.png",
+      "PackagePath": "staticwebassets\\images\\logout.png"
+    },
+    {
+      "Id": "C:\\Kal Project\\JewelsOnContainersC14\\WebMvc\\wwwroot\\images\\main_banner.png",
+      "PackagePath": "staticwebassets\\images\\main_banner.png"
+    },
+    {
+      "Id": "C:\\Kal Project\\JewelsOnContainersC14\\WebMvc\\wwwroot\\images\\main_banner_text.png",
+      "PackagePath": "staticwebassets\\images\\main_banner_text.png"
+    },
+    {
+      "Id": "C:\\Kal Project\\JewelsOnContainersC14\\WebMvc\\wwwroot\\images\\main_banner_text.svg",
+      "PackagePath": "staticwebassets\\images\\main_banner_text.svg"
+    },
+    {
+      "Id": "C:\\Kal Project\\JewelsOnContainersC14\\WebMvc\\wwwroot\\images\\my_orders.png",
+      "PackagePath": "staticwebassets\\images\\my_orders.png"
+    },
+    {
+      "Id": "C:\\Kal Project\\JewelsOnContainersC14\\WebMvc\\wwwroot\\images\\nav_img.jpg",
+      "PackagePath": "staticwebassets\\images\\nav_img.jpg"
+    },
+    {
+      "Id": "C:\\Kal Project\\JewelsOnContainersC14\\WebMvc\\wwwroot\\images\\nav_img1.jpg",
+      "PackagePath": "staticwebassets\\images\\nav_img1.jpg"
+    },
+    {
+      "Id": "C:\\Kal Project\\JewelsOnContainersC14\\WebMvc\\wwwroot\\images\\nav_img2.jpg",
+      "PackagePath": "staticwebassets\\images\\nav_img2.jpg"
+    },
+    {
+      "Id": "C:\\Kal Project\\JewelsOnContainersC14\\WebMvc\\wwwroot\\images\\nz.png",
+      "PackagePath": "staticwebassets\\images\\nz.png"
+    },
+    {
+      "Id": "C:\\Kal Project\\JewelsOnContainersC14\\WebMvc\\wwwroot\\images\\pk.png",
+      "PackagePath": "staticwebassets\\images\\pk.png"
+    },
+    {
+      "Id": "C:\\Kal Project\\JewelsOnContainersC14\\WebMvc\\wwwroot\\images\\plus.png",
+      "PackagePath": "staticwebassets\\images\\plus.png"
+    },
+    {
+      "Id": "C:\\Kal Project\\JewelsOnContainersC14\\WebMvc\\wwwroot\\images\\radius.png",
+      "PackagePath": "staticwebassets\\images\\radius.png"
+    },
+    {
+      "Id": "C:\\Kal Project\\JewelsOnContainersC14\\WebMvc\\wwwroot\\images\\radius.psd",
+      "PackagePath": "staticwebassets\\images\\radius.psd"
+    },
+    {
+      "Id": "C:\\Kal Project\\JewelsOnContainersC14\\WebMvc\\wwwroot\\images\\refresh.svg",
+      "PackagePath": "staticwebassets\\images\\refresh.svg"
+    },
+    {
+      "Id": "C:\\Kal Project\\JewelsOnContainersC14\\WebMvc\\wwwroot\\images\\s_arrow.png",
+      "PackagePath": "staticwebassets\\images\\s_arrow.png"
+    },
+    {
+      "Id": "C:\\Kal Project\\JewelsOnContainersC14\\WebMvc\\wwwroot\\images\\s_arrow.psd",
+      "PackagePath": "staticwebassets\\images\\s_arrow.psd"
+    },
+    {
+      "Id": "C:\\Kal Project\\JewelsOnContainersC14\\WebMvc\\wwwroot\\images\\social.psd",
+      "PackagePath": "staticwebassets\\images\\social.psd"
+    },
+    {
+      "Id": "C:\\Kal Project\\JewelsOnContainersC14\\WebMvc\\wwwroot\\images\\srl.png",
+      "PackagePath": "staticwebassets\\images\\srl.png"
+    },
+    {
+      "Id": "C:\\Kal Project\\JewelsOnContainersC14\\WebMvc\\wwwroot\\images\\star.png",
+      "PackagePath": "staticwebassets\\images\\star.png"
+    },
+    {
+      "Id": "C:\\Kal Project\\JewelsOnContainersC14\\WebMvc\\wwwroot\\images\\star.psd",
+      "PackagePath": "staticwebassets\\images\\star.psd"
+    },
+    {
+      "Id": "C:\\Kal Project\\JewelsOnContainersC14\\WebMvc\\wwwroot\\images\\tw.psd",
+      "PackagePath": "staticwebassets\\images\\tw.psd"
+    },
+    {
+      "Id": "C:\\Kal Project\\JewelsOnContainersC14\\WebMvc\\wwwroot\\images\\uk.png",
+      "PackagePath": "staticwebassets\\images\\uk.png"
+    },
+    {
+      "Id": "C:\\Kal Project\\JewelsOnContainersC14\\WebMvc\\wwwroot\\images\\us.png",
+      "PackagePath": "staticwebassets\\images\\us.png"
+    },
+    {
+      "Id": "C:\\Kal Project\\JewelsOnContainersC14\\WebMvc\\wwwroot\\images\\wish.png",
+      "PackagePath": "staticwebassets\\images\\wish.png"
+    },
+    {
+      "Id": "C:\\Kal Project\\JewelsOnContainersC14\\WebMvc\\wwwroot\\images\\zoom.png",
+      "PackagePath": "staticwebassets\\images\\zoom.png"
+    },
+    {
+      "Id": "C:\\Kal Project\\JewelsOnContainersC14\\WebMvc\\wwwroot\\js\\easing.js",
+      "PackagePath": "staticwebassets\\js\\easing.js"
+    },
+    {
+      "Id": "C:\\Kal Project\\JewelsOnContainersC14\\WebMvc\\wwwroot\\js\\jquery.etalage.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery.etalage.min.js"
+    },
+    {
+      "Id": "C:\\Kal Project\\JewelsOnContainersC14\\WebMvc\\wwwroot\\js\\jquery.flexisel.js",
+      "PackagePath": "staticwebassets\\js\\jquery.flexisel.js"
+    },
+    {
+      "Id": "C:\\Kal Project\\JewelsOnContainersC14\\WebMvc\\wwwroot\\js\\jquery.jscrollpane.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery.jscrollpane.min.js"
+    },
+    {
+      "Id": "C:\\Kal Project\\JewelsOnContainersC14\\WebMvc\\wwwroot\\js\\jquery.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Kal Project\\JewelsOnContainersC14\\WebMvc\\wwwroot\\js\\jquery.wmuSlider.js",
+      "PackagePath": "staticwebassets\\js\\jquery.wmuSlider.js"
+    },
+    {
+      "Id": "C:\\Kal Project\\JewelsOnContainersC14\\WebMvc\\wwwroot\\js\\megamenu.js",
+      "PackagePath": "staticwebassets\\js\\megamenu.js"
+    },
+    {
+      "Id": "C:\\Kal Project\\JewelsOnContainersC14\\WebMvc\\wwwroot\\js\\move-top.js",
+      "PackagePath": "staticwebassets\\js\\move-top.js"
+    },
+    {
+      "Id": "C:\\Kal Project\\JewelsOnContainersC14\\WebMvc\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Kal Project\\JewelsOnContainersC14\\WebMvc\\wwwroot\\js\\site.min.js",
+      "PackagePath": "staticwebassets\\js\\site.min.js"
+    },
+    {
+      "Id": "C:\\Kal Project\\JewelsOnContainersC14\\WebMvc\\wwwroot\\lib\\bootstrap\\.bower.json",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\.bower.json"
+    },
+    {
+      "Id": "C:\\Kal Project\\JewelsOnContainersC14\\WebMvc\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Kal Project\\JewelsOnContainersC14\\WebMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Kal Project\\JewelsOnContainersC14\\WebMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Kal Project\\JewelsOnContainersC14\\WebMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Kal Project\\JewelsOnContainersC14\\WebMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Kal Project\\JewelsOnContainersC14\\WebMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Kal Project\\JewelsOnContainersC14\\WebMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Kal Project\\JewelsOnContainersC14\\WebMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Kal Project\\JewelsOnContainersC14\\WebMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Kal Project\\JewelsOnContainersC14\\WebMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Kal Project\\JewelsOnContainersC14\\WebMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Kal Project\\JewelsOnContainersC14\\WebMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Kal Project\\JewelsOnContainersC14\\WebMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Kal Project\\JewelsOnContainersC14\\WebMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Kal Project\\JewelsOnContainersC14\\WebMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Kal Project\\JewelsOnContainersC14\\WebMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Kal Project\\JewelsOnContainersC14\\WebMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Kal Project\\JewelsOnContainersC14\\WebMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-theme.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-theme.css"
+    },
+    {
+      "Id": "C:\\Kal Project\\JewelsOnContainersC14\\WebMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-theme.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-theme.css.map"
+    },
+    {
+      "Id": "C:\\Kal Project\\JewelsOnContainersC14\\WebMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-theme.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-theme.min.css"
+    },
+    {
+      "Id": "C:\\Kal Project\\JewelsOnContainersC14\\WebMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-theme.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-theme.min.css.map"
+    },
+    {
+      "Id": "C:\\Kal Project\\JewelsOnContainersC14\\WebMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Kal Project\\JewelsOnContainersC14\\WebMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Kal Project\\JewelsOnContainersC14\\WebMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Kal Project\\JewelsOnContainersC14\\WebMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Kal Project\\JewelsOnContainersC14\\WebMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Kal Project\\JewelsOnContainersC14\\WebMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Kal Project\\JewelsOnContainersC14\\WebMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Kal Project\\JewelsOnContainersC14\\WebMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Kal Project\\JewelsOnContainersC14\\WebMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Kal Project\\JewelsOnContainersC14\\WebMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Kal Project\\JewelsOnContainersC14\\WebMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Kal Project\\JewelsOnContainersC14\\WebMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Kal Project\\JewelsOnContainersC14\\WebMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Kal Project\\JewelsOnContainersC14\\WebMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Kal Project\\JewelsOnContainersC14\\WebMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Kal Project\\JewelsOnContainersC14\\WebMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Kal Project\\JewelsOnContainersC14\\WebMvc\\wwwroot\\lib\\bootstrap\\dist\\fonts\\glyphicons-halflings-regular.eot",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\fonts\\glyphicons-halflings-regular.eot"
+    },
+    {
+      "Id": "C:\\Kal Project\\JewelsOnContainersC14\\WebMvc\\wwwroot\\lib\\bootstrap\\dist\\fonts\\glyphicons-halflings-regular.svg",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\fonts\\glyphicons-halflings-regular.svg"
+    },
+    {
+      "Id": "C:\\Kal Project\\JewelsOnContainersC14\\WebMvc\\wwwroot\\lib\\bootstrap\\dist\\fonts\\glyphicons-halflings-regular.ttf",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\fonts\\glyphicons-halflings-regular.ttf"
+    },
+    {
+      "Id": "C:\\Kal Project\\JewelsOnContainersC14\\WebMvc\\wwwroot\\lib\\bootstrap\\dist\\fonts\\glyphicons-halflings-regular.woff",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\fonts\\glyphicons-halflings-regular.woff"
+    },
+    {
+      "Id": "C:\\Kal Project\\JewelsOnContainersC14\\WebMvc\\wwwroot\\lib\\bootstrap\\dist\\fonts\\glyphicons-halflings-regular.woff2",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\fonts\\glyphicons-halflings-regular.woff2"
+    },
+    {
+      "Id": "C:\\Kal Project\\JewelsOnContainersC14\\WebMvc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Kal Project\\JewelsOnContainersC14\\WebMvc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Kal Project\\JewelsOnContainersC14\\WebMvc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Kal Project\\JewelsOnContainersC14\\WebMvc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Kal Project\\JewelsOnContainersC14\\WebMvc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Kal Project\\JewelsOnContainersC14\\WebMvc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Kal Project\\JewelsOnContainersC14\\WebMvc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Kal Project\\JewelsOnContainersC14\\WebMvc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Kal Project\\JewelsOnContainersC14\\WebMvc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Kal Project\\JewelsOnContainersC14\\WebMvc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Kal Project\\JewelsOnContainersC14\\WebMvc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Kal Project\\JewelsOnContainersC14\\WebMvc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Kal Project\\JewelsOnContainersC14\\WebMvc\\wwwroot\\lib\\bootstrap\\dist\\js\\npm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\npm.js"
+    },
+    {
+      "Id": "C:\\Kal Project\\JewelsOnContainersC14\\WebMvc\\wwwroot\\lib\\jquery-validation-unobtrusive\\.bower.json",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\.bower.json"
+    },
+    {
+      "Id": "C:\\Kal Project\\JewelsOnContainersC14\\WebMvc\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Kal Project\\JewelsOnContainersC14\\WebMvc\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Kal Project\\JewelsOnContainersC14\\WebMvc\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Kal Project\\JewelsOnContainersC14\\WebMvc\\wwwroot\\lib\\jquery-validation\\.bower.json",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\.bower.json"
+    },
+    {
+      "Id": "C:\\Kal Project\\JewelsOnContainersC14\\WebMvc\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Kal Project\\JewelsOnContainersC14\\WebMvc\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Kal Project\\JewelsOnContainersC14\\WebMvc\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Kal Project\\JewelsOnContainersC14\\WebMvc\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Kal Project\\JewelsOnContainersC14\\WebMvc\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Kal Project\\JewelsOnContainersC14\\WebMvc\\wwwroot\\lib\\jquery\\.bower.json",
+      "PackagePath": "staticwebassets\\lib\\jquery\\.bower.json"
+    },
+    {
+      "Id": "C:\\Kal Project\\JewelsOnContainersC14\\WebMvc\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Kal Project\\JewelsOnContainersC14\\WebMvc\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Kal Project\\JewelsOnContainersC14\\WebMvc\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Kal Project\\JewelsOnContainersC14\\WebMvc\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.WebMvc.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.WebMvc.props",
+      "PackagePath": "build\\WebMvc.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.WebMvc.props",
+      "PackagePath": "buildMultiTargeting\\WebMvc.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.WebMvc.props",
+      "PackagePath": "buildTransitive\\WebMvc.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

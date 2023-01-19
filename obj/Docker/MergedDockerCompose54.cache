@@ -1,0 +1,177 @@
+name: dockercompose12474889030456010714
+services:
+  basket.data:
+    container_name: basketdata
+    image: redis
+    networks:
+      backend: null
+    ports:
+    - mode: ingress
+      target: 6379
+      published: "7050"
+      protocol: tcp
+  cart:
+    build:
+      context: C:\Kal Project\JewelsOnContainersC14\CartApi
+      dockerfile: Dockerfile
+    container_name: jewelscartapi
+    depends_on:
+      basket.data:
+        condition: service_started
+      tokenserver:
+        condition: service_started
+    environment:
+      ConnectionString: basket.data
+      IdentityUrl: http://192.168.1.109:7800
+    image: jewels/cartapi
+    networks:
+      backend: null
+      frontend: null
+    ports:
+    - mode: ingress
+      target: 80
+      published: "7010"
+      protocol: tcp
+  catalog:
+    build:
+      context: C:\Kal Project\JewelsOnContainersC14\ProductCatalogAPI
+      dockerfile: Dockerfile
+    container_name: jewelscatalogapi
+    depends_on:
+      mssqlserver:
+        condition: service_started
+    environment:
+      ConnectionString: Data Source=mssqlserver;Initial Catalog=CatalogDb;User Id=sa;Password=ProductApi123(!);Connect
+        Timeout=30;TrustServerCertificate=false;Encrypt=false;
+      ExternalBaseUrl: http://localhost:7000
+    image: jewels/catalogapi
+    networks:
+      backend: null
+      frontend: null
+    ports:
+    - mode: ingress
+      target: 80
+      published: "7000"
+      protocol: tcp
+  mssqlserver:
+    container_name: jewelssqlserver
+    environment:
+      ACCEPT_EULA: "true"
+      MSSQL_SA_PASSWORD: ProductApi123(!)
+      SA_PASSWORD: ProductApi123(!)
+    image: mcr.microsoft.com/mssql/server:latest
+    networks:
+      backend: null
+    ports:
+    - mode: ingress
+      target: 1433
+      published: "1449"
+      protocol: tcp
+  order:
+    build:
+      context: C:\Kal Project\JewelsOnContainersC14\OrderApi
+      dockerfile: Dockerfile
+    container_name: jewelsorderapi
+    depends_on:
+      ordersqlserver:
+        condition: service_started
+      tokenserver:
+        condition: service_started
+    environment:
+      ConnectionString: Data Source=ordersqlserver;Initial Catalog=OrdersDb;User Id=sa;Password=ProductApi123(!);Connect
+        Timeout=30;TrustServerCertificate=false;Encrypt=false;
+      IdentityUrl: http://192.168.1.109:7800
+    image: jewels/orderapi
+    networks:
+      backend: null
+      frontend: null
+    ports:
+    - mode: ingress
+      target: 80
+      published: "7020"
+      protocol: tcp
+  ordersqlserver:
+    container_name: jewelsordersqlserver
+    environment:
+      ACCEPT_EULA: "true"
+      MSSQL_SA_PASSWORD: ProductApi123(!)
+      SA_PASSWORD: ProductApi123(!)
+    image: mcr.microsoft.com/mssql/server:latest
+    networks:
+      backend: null
+    ports:
+    - mode: ingress
+      target: 1433
+      published: "1450"
+      protocol: tcp
+  tokenserver:
+    build:
+      context: C:\Kal Project\JewelsOnContainersC14\TokenServiceAPI
+      dockerfile: Dockerfile
+    container_name: jewelstokenapi
+    depends_on:
+      tokensqlserver:
+        condition: service_started
+    environment:
+      ConnectionString: Data Source=tokensqlserver;Initial Catalog=TokenServiceDb;User
+        Id=sa;Password=ProductApi123(!);Connect Timeout=30;TrustServerCertificate=false;Encrypt=false;
+      MvcClient: http://localhost:7500
+    image: jewels/tokenapi
+    networks:
+      backend: null
+      frontend: null
+    ports:
+    - mode: ingress
+      target: 80
+      published: "7800"
+      protocol: tcp
+  tokensqlserver:
+    container_name: jewelstokensqlserver
+    environment:
+      ACCEPT_EULA: "true"
+      MSSQL_SA_PASSWORD: ProductApi123(!)
+      SA_PASSWORD: ProductApi123(!)
+    image: mcr.microsoft.com/mssql/server:latest
+    networks:
+      backend: null
+    ports:
+    - mode: ingress
+      target: 1433
+      published: "1448"
+      protocol: tcp
+  webmvc:
+    build:
+      context: C:\Kal Project\JewelsOnContainersC14\WebMvc
+      dockerfile: Dockerfile
+    container_name: webshop
+    depends_on:
+      cart:
+        condition: service_started
+      catalog:
+        condition: service_started
+      order:
+        condition: service_started
+      tokenserver:
+        condition: service_started
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      CallBackUrl: http://localhost:7500
+      CartUrl: http://cart
+      CatalogUrl: http://catalog
+      IdentityUrl: http://192.168.1.109:7800
+      OrderUrl: http://order
+      StripePrivateKey: sk_test_bSHT9qxwjpyCOP0qdAvHLfAA
+      StripePublicKey: pk_test_jZlpubvlPmcV6QJPReImelQy
+    image: jewels/webmvc
+    networks:
+      frontend: null
+    ports:
+    - mode: ingress
+      target: 80
+      published: "7500"
+      protocol: tcp
+networks:
+  backend:
+    name: dockercompose12474889030456010714_backend
+  frontend:
+    name: dockercompose12474889030456010714_frontend

@@ -1,0 +1,141 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Kal Project\\JewelsOnContainersC14\\ProductCatalogAPI\\wwwroot\\Pics\\Ring1.jpg",
+      "PackagePath": "staticwebassets\\Pics\\Ring1.jpg"
+    },
+    {
+      "Id": "C:\\Kal Project\\JewelsOnContainersC14\\ProductCatalogAPI\\wwwroot\\Pics\\Ring10.jpg",
+      "PackagePath": "staticwebassets\\Pics\\Ring10.jpg"
+    },
+    {
+      "Id": "C:\\Kal Project\\JewelsOnContainersC14\\ProductCatalogAPI\\wwwroot\\Pics\\Ring11.jpg",
+      "PackagePath": "staticwebassets\\Pics\\Ring11.jpg"
+    },
+    {
+      "Id": "C:\\Kal Project\\JewelsOnContainersC14\\ProductCatalogAPI\\wwwroot\\Pics\\Ring12.jpg",
+      "PackagePath": "staticwebassets\\Pics\\Ring12.jpg"
+    },
+    {
+      "Id": "C:\\Kal Project\\JewelsOnContainersC14\\ProductCatalogAPI\\wwwroot\\Pics\\Ring13.jpg",
+      "PackagePath": "staticwebassets\\Pics\\Ring13.jpg"
+    },
+    {
+      "Id": "C:\\Kal Project\\JewelsOnContainersC14\\ProductCatalogAPI\\wwwroot\\Pics\\Ring14.jpg",
+      "PackagePath": "staticwebassets\\Pics\\Ring14.jpg"
+    },
+    {
+      "Id": "C:\\Kal Project\\JewelsOnContainersC14\\ProductCatalogAPI\\wwwroot\\Pics\\Ring15.jpg",
+      "PackagePath": "staticwebassets\\Pics\\Ring15.jpg"
+    },
+    {
+      "Id": "C:\\Kal Project\\JewelsOnContainersC14\\ProductCatalogAPI\\wwwroot\\Pics\\Ring2.jpg",
+      "PackagePath": "staticwebassets\\Pics\\Ring2.jpg"
+    },
+    {
+      "Id": "C:\\Kal Project\\JewelsOnContainersC14\\ProductCatalogAPI\\wwwroot\\Pics\\Ring3.jpg",
+      "PackagePath": "staticwebassets\\Pics\\Ring3.jpg"
+    },
+    {
+      "Id": "C:\\Kal Project\\JewelsOnContainersC14\\ProductCatalogAPI\\wwwroot\\Pics\\Ring4.jpg",
+      "PackagePath": "staticwebassets\\Pics\\Ring4.jpg"
+    },
+    {
+      "Id": "C:\\Kal Project\\JewelsOnContainersC14\\ProductCatalogAPI\\wwwroot\\Pics\\Ring5.jpg",
+      "PackagePath": "staticwebassets\\Pics\\Ring5.jpg"
+    },
+    {
+      "Id": "C:\\Kal Project\\JewelsOnContainersC14\\ProductCatalogAPI\\wwwroot\\Pics\\Ring6.jpg",
+      "PackagePath": "staticwebassets\\Pics\\Ring6.jpg"
+    },
+    {
+      "Id": "C:\\Kal Project\\JewelsOnContainersC14\\ProductCatalogAPI\\wwwroot\\Pics\\Ring7.jpg",
+      "PackagePath": "staticwebassets\\Pics\\Ring7.jpg"
+    },
+    {
+      "Id": "C:\\Kal Project\\JewelsOnContainersC14\\ProductCatalogAPI\\wwwroot\\Pics\\Ring8.jpg",
+      "PackagePath": "staticwebassets\\Pics\\Ring8.jpg"
+    },
+    {
+      "Id": "C:\\Kal Project\\JewelsOnContainersC14\\ProductCatalogAPI\\wwwroot\\Pics\\Ring9.jpg",
+      "PackagePath": "staticwebassets\\Pics\\Ring9.jpg"
+    },
+    {
+      "Id": "C:\\Kal Project\\JewelsOnContainersC14\\ProductCatalogAPI\\wwwroot\\Pics\\shoes-1.png",
+      "PackagePath": "staticwebassets\\Pics\\shoes-1.png"
+    },
+    {
+      "Id": "C:\\Kal Project\\JewelsOnContainersC14\\ProductCatalogAPI\\wwwroot\\Pics\\shoes-10.png",
+      "PackagePath": "staticwebassets\\Pics\\shoes-10.png"
+    },
+    {
+      "Id": "C:\\Kal Project\\JewelsOnContainersC14\\ProductCatalogAPI\\wwwroot\\Pics\\shoes-11.png",
+      "PackagePath": "staticwebassets\\Pics\\shoes-11.png"
+    },
+    {
+      "Id": "C:\\Kal Project\\JewelsOnContainersC14\\ProductCatalogAPI\\wwwroot\\Pics\\shoes-12.png",
+      "PackagePath": "staticwebassets\\Pics\\shoes-12.png"
+    },
+    {
+      "Id": "C:\\Kal Project\\JewelsOnContainersC14\\ProductCatalogAPI\\wwwroot\\Pics\\shoes-13.png",
+      "PackagePath": "staticwebassets\\Pics\\shoes-13.png"
+    },
+    {
+      "Id": "C:\\Kal Project\\JewelsOnContainersC14\\ProductCatalogAPI\\wwwroot\\Pics\\shoes-14.png",
+      "PackagePath": "staticwebassets\\Pics\\shoes-14.png"
+    },
+    {
+      "Id": "C:\\Kal Project\\JewelsOnContainersC14\\ProductCatalogAPI\\wwwroot\\Pics\\shoes-15.png",
+      "PackagePath": "staticwebassets\\Pics\\shoes-15.png"
+    },
+    {
+      "Id": "C:\\Kal Project\\JewelsOnContainersC14\\ProductCatalogAPI\\wwwroot\\Pics\\shoes-2.png",
+      "PackagePath": "staticwebassets\\Pics\\shoes-2.png"
+    },
+    {
+      "Id": "C:\\Kal Project\\JewelsOnContainersC14\\ProductCatalogAPI\\wwwroot\\Pics\\shoes-3.png",
+      "PackagePath": "staticwebassets\\Pics\\shoes-3.png"
+    },
+    {
+      "Id": "C:\\Kal Project\\JewelsOnContainersC14\\ProductCatalogAPI\\wwwroot\\Pics\\shoes-4.png",
+      "PackagePath": "staticwebassets\\Pics\\shoes-4.png"
+    },
+    {
+      "Id": "C:\\Kal Project\\JewelsOnContainersC14\\ProductCatalogAPI\\wwwroot\\Pics\\shoes-5.png",
+      "PackagePath": "staticwebassets\\Pics\\shoes-5.png"
+    },
+    {
+      "Id": "C:\\Kal Project\\JewelsOnContainersC14\\ProductCatalogAPI\\wwwroot\\Pics\\shoes-6.png",
+      "PackagePath": "staticwebassets\\Pics\\shoes-6.png"
+    },
+    {
+      "Id": "C:\\Kal Project\\JewelsOnContainersC14\\ProductCatalogAPI\\wwwroot\\Pics\\shoes-7.png",
+      "PackagePath": "staticwebassets\\Pics\\shoes-7.png"
+    },
+    {
+      "Id": "C:\\Kal Project\\JewelsOnContainersC14\\ProductCatalogAPI\\wwwroot\\Pics\\shoes-8.png",
+      "PackagePath": "staticwebassets\\Pics\\shoes-8.png"
+    },
+    {
+      "Id": "C:\\Kal Project\\JewelsOnContainersC14\\ProductCatalogAPI\\wwwroot\\Pics\\shoes-9.png",
+      "PackagePath": "staticwebassets\\Pics\\shoes-9.png"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.ProductCatalogAPI.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.ProductCatalogAPI.props",
+      "PackagePath": "build\\ProductCatalogAPI.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.ProductCatalogAPI.props",
+      "PackagePath": "buildMultiTargeting\\ProductCatalogAPI.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.ProductCatalogAPI.props",
+      "PackagePath": "buildTransitive\\ProductCatalogAPI.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
